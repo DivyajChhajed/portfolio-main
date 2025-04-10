@@ -1,0 +1,162 @@
+---
+import LetterGlitch from "../React/LetterGlitch.tsx";
+import LogoWall from "../components/logoWall.astro";
+import SkillsList from "../React/SkillsList.tsx";
+import ig from "/svg/instagram.svg";
+import Typewriter from '../React/Typewriter.tsx';
+
+---
+
+<section class="text-[var(--white)] mt-12 md:mt-0" id="home">
+  <div class="max-w-5xl mx-auto space-y-8 md:py-36 pb-14">
+    <div class="text-left space-y-4">
+      
+      <p class="text-md md:text-lg text-[var(--white-icon)] shiny-white flex flex-col animate-pulse">
+        👋 Hi, I&apos;m Divyaj...
+      </p>
+
+      <img
+        src="/profilepic.jpg"
+        alt="Divyaj Chhajed"
+        class="w-32 h-32 md:w-40 md:h-40 rounded-3xl object-cover shadow-md hover:scale-105 transition-transform duration-300"
+      />
+
+      <div class="flex flex-col lg:flex-row lg:items-center space-y-4 lg:space-y-0 lg:space-x-8 md:gap-4">
+      
+        <h1 class="text-[var(--white)] text-5xl md:text-6xl font-medium text-pretty leading-none">
+        Software Developer
+        </h1>
+        
+      </div>
+
+      <p class="text-xl md:text-2xl text-purple-200 font-semibold animate-fade-up">
+        Innovative Problem Solver  <section class="animate-bounce">🚀</section>{"  "}
+      </p>
+      
+      <p class="text-lg md:text-xl italic text-pink-200 font-light animate-fade-in-delay">
+        "Transforming ideas into impactful code."
+      </p>
+      <div class="text-xl font-bold flex pt-3 md:pt-6">
+        
+       About Me 
+       
+      </div>
+
+      
+      <!-- About Me Text -->
+      <p class="text-sm md:text-xl text-[var(--white-icon)] pt-1 leading-relaxed">
+        I'm a passionate AI and Computer Science student, currently in my third year of CSE (AI & ML), dedicated to building intelligent systems that solve real-world problems. With a deep interest in AI Full Stack Development, I focus on creating scalable, production-ready solutions that are clean, efficient, and built to last.<br /><br />
+        From crafting SaaS products to working on multimodal AI applications, I thrive in environments that challenge me to innovate and iterate fast—without breaking things.<br /><br />
+        I actively participate in hackathons, research, and collaborative projects, constantly exploring new technologies, frameworks, and tools that push the boundaries of what's possible. Whether it's automating workflows, enhancing user experiences, or deploying ML models in real-time, I aim to build tech that makes an impact.<br /><br />
+        Explore some of my recent work below. Let’s build the future, one smart solution at a time. 🌟
+      </p>
+      <div class="flex justify-start gap-2 pt-3 md:pt-6">
+        <a
+          target="_blank"
+          href="https://github.com/DivyajChhajed"
+          aria-label="GitHub"
+          class="text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
+        >
+          <img
+            src="/icons/github.png"
+            
+            alt="Instagram"
+            class="w-[2.1em] h-[2.1em] object-cover"
+          />
+        </a>
+        <a
+          target="_blank"
+          href="https://linkedin.com/in/divyajchhajed"
+          aria-label="LinkedIn"
+          class="text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
+        >
+          <img
+            src="/icons/linkedin.png"
+            
+            alt="Instagram"
+            class="w-[2.1em] h-[2.1em] object-cover rounded-md"
+          />
+        </a>
+        <a
+          target="_blank"
+          href="https://instagram.com/divyaj_"
+          aria-label="Email"
+          class="text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
+        >
+          <img
+            src="/icons/instagram.png"
+            
+            alt="Instagram"
+            class="w-[2.1em] h-[2.1em] object-cover"
+          />
+        </a>
+
+        <a
+          target="_blank"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=divyajchhajeddc16102004@gmail.com&su=Hey%20Divyaj!"
+          aria-label="Email"
+          class="text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 49 49">
+<path fill="#4caf50" d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.657,0,3-1.343,3-3V16.2z"></path><path fill="#1e88e5" d="M3,16.2l3.614,1.71L13,23.7V40H6c-1.657,0-3-1.343-3-3V16.2z"></path><polygon fill="#e53935" points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17"></polygon><path fill="#c62828" d="M3,12.298V16.2l10,7.5V11.2L9.876,8.859C9.132,8.301,8.228,8,7.298,8h0C4.924,8,3,9.924,3,12.298z"></path><path fill="#fbc02d" d="M45,12.298V16.2l-10,7.5V11.2l3.124-2.341C38.868,8.301,39.772,8,40.702,8h0 C43.076,8,45,9.924,45,12.298z"></path>
+</svg>
+        </a>
+        
+          <a
+          target="_blank"
+          href="https://x.com/divyajchhajed"
+          aria-label="Email"
+          class="text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
+        >
+         
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0,0,256,256"
+style="fill:#FFFFFF;">
+<g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M11,4c-3.866,0 -7,3.134 -7,7v28c0,3.866 3.134,7 7,7h28c3.866,0 7,-3.134 7,-7v-28c0,-3.866 -3.134,-7 -7,-7zM13.08594,13h7.9375l5.63672,8.00977l6.83984,-8.00977h2.5l-8.21094,9.61328l10.125,14.38672h-7.93555l-6.54102,-9.29297l-7.9375,9.29297h-2.5l9.30859,-10.89648zM16.91406,15l14.10742,20h3.06445l-14.10742,-20z"></path></g></g>
+</svg>
+
+        </a>
+        
+        
+      </div>
+    </div>
+
+    <LogoWall />
+
+    <div class="flex flex-col lg:flex-row items-center gap-8">
+      <SkillsList client:load />
+      <div
+        class="flex justify-center md:w-full md:h-[292px] size-[290px] pt-3 md:pt-9 md:ml-16"
+      >
+        <LetterGlitch
+          client:load
+          glitchColors={["#5e4491", "#A476FF", "#241a38"]}
+          glitchSpeed={33}
+          centerVignette={false}
+          outerVignette={true}
+          smooth={true}
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<style is:global>
+  .shiny-sec {
+    background: linear-gradient(135deg, #a476ff 25%, #eee5ff 50%, #a476ff 75%);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shine 3s linear infinite;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 100% 50%;
+    }
+    30%,
+    70% {
+      background-position: 0% 50%;
+    }
+  }
+</style>
